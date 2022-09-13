@@ -1,0 +1,21 @@
+﻿
+
+IOC (Inversion Of Control) Prensibi Nedir?
+
+Uygulamanın yaşam döngüsü boyunca birbirine bağımlılığı az (loose coupling) olan nesneler oluşturmayı amaçlayan bir yazılım geliştirme prensibidir. IoC kullanan sınıfa bir interface inject edildiğinde, ilgili interface metotları kullanılabilir olur. Böylelikle sınıf içerisinde yapılacak herhangi bir değişiklikte IoC kullan sınıf etkilenmeyeceği için yeniden yazılabilir ve test edilebilir bir yazılım geliştirmemizi sağlar.
+
+Bu Prensibin Kullanım Avantajları:
+
+1-) Modüler programlar geliştirilebilir.
+2-) Kolay Test edilebilir yazılım geliştirmeyi sağlar.
+3-) Proje üstünde süreçlerin yönetilebilir olmasını sağlar.
+4-) Farklı implementasyonlar arası kolay geçiş sağlar.
+5-) Loosely coupled (bağımlılığı az) sınıflar oluşturmayı sağlar.
+
+IoC için kullanılabilecek popüler kütüophaneler.
+
+--- Unity
+--- Castle Windsor
+--- StructureMap
+--- Ninject
+--- Autofac
