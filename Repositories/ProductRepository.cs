@@ -17,7 +17,7 @@ namespace NetCoreUnityIOC.Repositories
 
         public void Add(Product entity)
         {
-            throw new System.NotImplementedException();
+            _db.Products.Add(entity);
         }
 
         public IList<Product> GetAll()
@@ -29,7 +29,7 @@ namespace NetCoreUnityIOC.Repositories
 
         public int Save()
         {
-            throw new System.NotImplementedException();
+            return _db.SaveChanges();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace NetCoreUnityIOC.Repositories
 
         public void Add(Supplier entity)
         {
-            throw new System.NotImplementedException();
+            _db.Suppliers.Add(entity);
         }
 
         public IList<Supplier> GetAll()
@@ -28,7 +28,7 @@ namespace NetCoreUnityIOC.Repositories
 
         public int Save()
         {
-            throw new System.NotImplementedException();
+            return _db.SaveChanges();
         }
     }
 }

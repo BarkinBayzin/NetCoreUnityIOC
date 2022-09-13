@@ -16,7 +16,7 @@ namespace NetCoreUnityIOC.Repositories
 
         public void Add(Category entity)
         {
-            throw new System.NotImplementedException();
+            _db.Categories.Add(entity);
         }
 
         public IList<Category> GetAll()
@@ -27,7 +27,7 @@ namespace NetCoreUnityIOC.Repositories
 
         public int Save()
         {
-            throw new System.NotImplementedException();
+            return _db.SaveChanges();
         }
     }
 }
